@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with yours own action", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "Git Hub -- Commit", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
     }
